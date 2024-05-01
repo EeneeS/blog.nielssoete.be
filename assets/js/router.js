@@ -1,9 +1,9 @@
 import { homePage } from "./components/homePage/homePage.js";
 import { blogPage } from "./components/blogPage/blogPage.js";
 
-window.addEventListener("hashchange", route);
+window.addEventListener("hashchange", router);
 
-function route() {
+function router() {
     const path = window.location.hash.substr(1);
     const segments = path.split("/");
     if (segments[0] === "") {
@@ -13,4 +13,4 @@ function route() {
     }
 }
 
-route();
+router();
