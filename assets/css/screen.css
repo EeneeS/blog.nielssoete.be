@@ -43,3 +43,23 @@ header #navigation a img {
     width: 16px;
     height: 16px;
 }
+
+footer {
+    padding: 4rem 0rem;
+    display: flex;
+}
+
+footer #footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer #footer-left h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+footer #footer-left span {
+    font-weight: 800;
+}
