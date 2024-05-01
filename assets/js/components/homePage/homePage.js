@@ -16,7 +16,7 @@ function homePage() {
 
 function Header() {
     return `
-        <div>
+        <div class="hero">
             <h1>NIELS SOETE'S
             <span class="blue">B</span><span class="orange">L</span><span class="purple">O</span><span
                 class="pink">G</span>
@@ -27,12 +27,13 @@ function Header() {
 }
 
 function BlogPosts() {
-    let posts = "";
+    const $content = document.createElement("div");
+    $content.id = "blog-posts";
     POSTS.forEach((item) => {
         const html = createCardHTML(item.title, item.content, item.img_url, item.post_url)
-        posts += html;
+        $content.insertAdjacentHTML("beforeend", html);
     })
-    return posts;
+    return $content.outerHTML;
 }
 
 function createCardHTML(title, content, img_url, post_url) {
