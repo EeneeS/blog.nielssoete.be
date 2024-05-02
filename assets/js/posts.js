@@ -1,5 +1,6 @@
 export const POSTS = [
     {
+        id: 0,
         title: "Guest lecture Combell",
         content: `
             During a guest lecture organized by a fellow student, Simon Verdonck 
@@ -10,30 +11,31 @@ export const POSTS = [
             Significant investments are dedicated to state-of-the-art data centers, boasting not only redundant data storage but 
             also power redundancy from various sources and backed by battery support. Dual internet providers collaborate to minimize any 
             potential downtime. <br/> <br/>
-            <span class="blog-accent">Combell</span> envisions next-generation hosting. With Linux Debian, Apache web hosting, and individual containers fortified 
+            <span>Combell</span> envisions next-generation hosting. With Linux Debian, Apache web hosting, and individual containers fortified 
             with firewalls for customers, they go beyond simple storage solutions. Security ascends to new heights, incorporating features 
             like SSH access and brute force protection. <br/> <br/>
             Did you know? Even the servers handling the ticket sales of Tomorrowland, one of the world's 
             largest events, find their home at Combell. <br/> <br/>
-            A heartfelt thank you to <span class="blog-accent">Simon Verdonck</span> for this insightful lecture!
+            A heartfelt thank you to <span>Simon Verdonck</span> for this insightful lecture!
 `,
         img_url: "/images/combell-logo.png",
         post_url: "combell",
     },
     {
+        id: 1,
         title: "Hack The Future 2023",
         content: `
-            Together with my teammember <span class="blog-accent"/>Thibo Verbeerst</span> I had the privilege of being a guest a Hack The Future 2023 in 
+            Together with my teammember <span/>Thibo Verbeerst</span> I had the privilege of being a guest a Hack The Future 2023 in 
             Antwerp, an event organized by Cronos Groep <br/> <br/>
             We were warmly welcomed by the organizers and were given a brief introduction to the event. After the 
-            introduction we were welcomed by <span class="blog-accent">Optis</span>, who gave us a brief introduction to their company and the challenge 
+            introduction we were welcomed by <span>Optis</span>, who gave us a brief introduction to their company and the challenge 
             they prepared that we were about to tackle. <br/> <br/>
             Together we embraced the "Jungle Hike Logger" challenge. This task required us to develop an application 
             enabling hikers to log important observations during their trek, while also allowing them to explore logs from fellow 
             hikers withing the same area. <br/> <br/>
             I am delighted to share the exhilarating news that our team was honored with the title of "Public Favorite" 
             within the Jungle Hike Logger challenge. <br/> <br/>
-            <span class="blog-accent">Hack The Future 2023</span> proved to be an invaluable experience, providing us with an opportunity to connect with 
+            <span>Hack The Future 2023</span> proved to be an invaluable experience, providing us with an opportunity to connect with 
             like-minded individuals, learn from industry leaders, and showcase our skills in a dynamic and competitive environment.
             A huge thank you to Cronos Groep for organizing this exceptional event, and to Optis for presenting us with 
             a challenge that ignited our creativity and determination. <br/> <br/>
@@ -42,6 +44,7 @@ export const POSTS = [
         post_url: "hack-the-future",
     },
     {
+        id: 2,
         title: "Guest lecture Wiseo",
         content: `
             During a recent guest lecture, we delved into the ongoing discussion of who should be responsible for optimizing 
@@ -53,14 +56,15 @@ export const POSTS = [
             emphasized the three pillars of SEO: technology, content, and authority, and introduced practical tools like SEO 
             Finder and AI. <br/> <br/>
             Finding the right balance between SEO and user experience can be challenging, but the lecture provided valuable insights 
-            to enhance discoverability and increase website traffic. We extend our gratitude to <span class="blog-accent">Frederik Vermeire</span> 
-            from <span class="blog-accent">WiSEO</span> for delivering an 
+            to enhance discoverability and increase website traffic. We extend our gratitude to <span>Frederik Vermeire</span> 
+            from <span>WiSEO</span> for delivering an 
             enlightening lecture on website optimization. <br/> <br/>
         `,
         img_url: "images/wiseo.jpeg",
         post_url: "wiseo",
     },
     {
+        id: 3,
         title: "OpenAI & Deno session",
         content: `
             On Tuesday, December 19th, I went to a really interesting lecture by Dimitri Casier. He talked about 
@@ -75,7 +79,7 @@ export const POSTS = [
             and we need to learn how to use these answers in the right way. <br/> <br/>
             Casier left us with a simple but powerful quote: "You can be the best programmer, but without 
             the right prompt, the output is useless." It's a good reminder that getting the right input 
-            is crucial. Quote by <span class="blog-accent">Dimitri Casier</span> <br/> <br/>
+            is crucial. Quote by <span>Dimitri Casier</span> <br/> <br/>
             This text was rewritten by chatGPT :)
         `,
         img_url: "images/deno.svg",

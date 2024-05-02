@@ -11,25 +11,31 @@ function blogPage(post) {
     $blogPage.insertAdjacentHTML("beforeend", Header());
     $blogPage.insertAdjacentHTML("beforeend", BlogPost(post));
 
-
     $content.innerHTML = $blogPage.innerHTML;
 }
 
 function Header() {
     return `
     <div>
-        <a href="/">Go back</a>    
+        <a href="/">< Go back</a>    
     </div>
     `;
 }
 
+const colors = [
+    "blue",
+    "orange",
+    "purple",
+    "pink",
+];
+
 function BlogPost(post) {
     const blogpost = POSTS.filter((item) => item.post_url === post)[0];
     return `
-    <div class="blog-post">
+    <div class="blog-post accent-${colors[blogpost.id]}">
         <h2>${blogpost.title}</h2>
-        <img src="${blogpost.img_url}"/>
         <p>${blogpost.content}</p>
+        <img src="${blogpost.img_url}"/>
     </div>
     `;
 }
