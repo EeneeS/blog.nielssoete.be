@@ -32,7 +32,7 @@ const colors = [
 function BlogPost(post) {
     const blogpost = POSTS.filter((item) => item.post_url === post)[0];
     return `
-    <div class="blog-post accent-${colors[blogpost.id]}">
+    <div class="blog-post accent-${colors[blogpost.id % 4]}">
         <h2>${blogpost.title}</h2>
         <p>${blogpost.content}</p>
         <img src="${blogpost.img_url}"/>
