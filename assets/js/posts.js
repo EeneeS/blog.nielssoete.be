@@ -1,8 +1,8 @@
 export const POSTS = [
-    {
-        id: 0,
-        title: "Guest lecture Combell",
-        content: `
+  {
+    id: 0,
+    title: "Guest lecture Combell",
+    content: `
             During a guest lecture organized by a fellow student, Simon Verdonck 
             unfolded the compelling narrative of Combell's origins and its evolution into an indispensable force
             within the hosting industry. <br/> <br/>
@@ -18,13 +18,13 @@ export const POSTS = [
             largest events, find their home at Combell. <br/> <br/>
             A heartfelt thank you to <span>Simon Verdonck</span> for this insightful lecture!
 `,
-        img_url: "/images/combell-logo.png",
-        post_url: "combell",
-    },
-    {
-        id: 1,
-        title: "Hack The Future 2023",
-        content: `
+    img_url: "/images/combell-logo.png",
+    post_url: "combell",
+  },
+  {
+    id: 1,
+    title: "Hack The Future 2023",
+    content: `
             Together with my teammember <span/>Thibo Verbeerst</span> I had the privilege of being a guest a Hack The Future 2023 in 
             Antwerp, an event organized by Cronos Groep <br/> <br/>
             We were warmly welcomed by the organizers and were given a brief introduction to the event. After the 
@@ -40,13 +40,13 @@ export const POSTS = [
             A huge thank you to Cronos Groep for organizing this exceptional event, and to Optis for presenting us with 
             a challenge that ignited our creativity and determination. <br/> <br/>
         `,
-        img_url: "images/htf.jpg",
-        post_url: "hack-the-future",
-    },
-    {
-        id: 2,
-        title: "Guest lecture Wiseo",
-        content: `
+    img_url: "images/htf.jpg",
+    post_url: "hack-the-future",
+  },
+  {
+    id: 2,
+    title: "Guest lecture Wiseo",
+    content: `
             During a recent guest lecture, we delved into the ongoing discussion of who should be responsible for optimizing 
             a website: developers or the marketing team. Patience is crucial when aiming for a top position on Google <br/> <br/>
             While Google remains the dominant search engine, we also explored the emergence of platforms like TikTok and the 
@@ -60,13 +60,13 @@ export const POSTS = [
             from <span>WiSEO</span> for delivering an 
             enlightening lecture on website optimization. <br/> <br/>
         `,
-        img_url: "images/wiseo.jpeg",
-        post_url: "wiseo",
-    },
-    {
-        id: 3,
-        title: "OpenAI & Deno session",
-        content: `
+    img_url: "images/wiseo.jpeg",
+    post_url: "wiseo",
+  },
+  {
+    id: 3,
+    title: "OpenAI & Deno session",
+    content: `
             On Tuesday, December 19th, I went to a really interesting lecture by Dimitri Casier. He talked about 
             using openAI with Deno, a JavaScript runtime that's becoming popular. It was a cool session! <br/> <br/>
             Casier started by explaining what you can do with openAI and how important it is to use the right prompt
@@ -82,7 +82,21 @@ export const POSTS = [
             is crucial. Quote by <span>Dimitri Casier</span> <br/> <br/>
             This text was rewritten by chatGPT :)
         `,
-        img_url: "images/deno.svg",
-        post_url: "openAI-deno",
-    },
+    img_url: "images/deno.svg",
+    post_url: "openAI-deno",
+  },
+  {
+    id: 4,
+    title: "Workshop VTI Izegem",
+    content: `
+      Together with Sibren Eeckhout, Lukas Olivier, Lucas Guillemyn and Thibo Verbeerst, we gave a workshop at VTI Izegem. Our goal was to educate students at VTI Izegen on the things we learn at Howest. <br/> <br/>
+      With the help of template code and the whole team answering questions, the students were able to create a Flask API that could add, receive or generate random quotes.
+      Students learned the importance of client/server architecture, and the communication between the frontend and backend. <br/> <br/>
+      For the purpose of this workshop, we created a fake banking website. This website would be the playground where the students could try out all different kind of pentesting tasks
+      With help from the team, the students were able to use OSINT techniques to find the password of the fake bank manager and login to his account. After successfully doing so, they could abuse the developer tools and change the salary of an employee. <br/> <br/>
+      As a team, we thank the lecturers at VTI Izegem to allow us to teach to their students!
+    `,
+    img_url: "images/vti.jpg",
+    post_url: "workshop-vti-izegem"
+  }
 ];
